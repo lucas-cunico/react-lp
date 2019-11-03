@@ -1,0 +1,9 @@
+.banner{
+    padding: 40px 40px;
+    background-color: #caadde;
+}
+.banner h2{
+    height: 80px;
+    text-align: center;
+    font-weight: 400;
+}

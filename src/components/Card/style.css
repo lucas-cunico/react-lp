@@ -1,0 +1,25 @@
+.card{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 7px 7px 32px -18px rgba(0,0,0,0.75);
+    transition: all ease-in-out 0.3s;
+}
+.card:hover{
+    box-shadow: 7px 7px 32px -10px rgba(0,0,0,0.75);
+
+}
+.card img{
+    height: 400px;
+    width: 50%;
+    object-fit: cover;
+}
+.card .text {
+    width: 50%;
+    font-weight: 400;
+}
+.card .text h3, p{
+    padding: 40px;
+}
