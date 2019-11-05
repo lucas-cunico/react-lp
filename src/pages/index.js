@@ -1,20 +1,21 @@
 import React from "react"
-import './index.css'
 
-import Banner from '../components/Banner'
-import Card from '../components/Card'
+import Container from "@material-ui/core/Container"
+
+import Banner from "../components/Banner"
+import Card from "../components/Card"
 
 const IndexPage = () => (
   <React.Fragment>
-    <Banner/>
-    <div className="container">
-    <Card/>
-    <Card right/>
-    <Card/>
-    <Card right/>
-    <Card/>
-    <Card right/>
-    </div>
+    <Banner />
+    <Container>
+      <Card />
+      <Card right />
+      <Card />
+      <Card right />
+      <Card />
+      <Card right />
+    </Container>
   </React.Fragment>
 )
 

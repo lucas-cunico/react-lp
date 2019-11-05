@@ -1,9 +1,10 @@
 import React from 'react'
-import './style.css'
+import { withStyles } from '@material-ui/core/styles';
+import styles from './style'
 
-const Banner = () => {
-    return <div className="banner">
+const Banner = ({ classes }) => {
+    return <div className={classes.banner}>
         <h2>Banner</h2>
     </div>
 }
-export default Banner
+export default withStyles(styles)(Banner)
